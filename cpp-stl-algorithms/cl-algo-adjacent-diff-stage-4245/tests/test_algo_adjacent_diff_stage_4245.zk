@@ -1,0 +1,10 @@
+// cl-algo-adjacent-diff-stage-4245: Test Suite
+import "../aad_4245.zk"
+
+fn test_run():
+    res := adj_diff_kernel_4245(100, 75)
+    if res != 25 + 4245: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-adjacent-diff-stage-4245!")

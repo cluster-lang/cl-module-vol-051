@@ -1,0 +1,10 @@
+// cl-algo-adjacent-diff-stage-5562: Test Suite
+import "../aad_5562.zk"
+
+fn test_run():
+    res := adj_diff_kernel_5562(100, 75)
+    if res != 25 + 5562: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-adjacent-diff-stage-5562!")

@@ -1,0 +1,10 @@
+// cl-algo-adjacent-diff-stage-2143: Test Suite
+import "../aad_2143.zk"
+
+fn test_run():
+    res := adj_diff_kernel_2143(100, 75)
+    if res != 25 + 2143: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-adjacent-diff-stage-2143!")

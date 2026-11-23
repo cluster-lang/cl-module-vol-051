@@ -1,0 +1,10 @@
+// cl-algo-adjacent-diff-stage-6403: Test Suite
+import "../aad_6403.zk"
+
+fn test_run():
+    res := adj_diff_kernel_6403(100, 75)
+    if res != 25 + 6403: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-adjacent-diff-stage-6403!")

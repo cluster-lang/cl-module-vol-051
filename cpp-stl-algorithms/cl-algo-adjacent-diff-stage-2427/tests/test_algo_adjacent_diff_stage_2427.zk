@@ -1,0 +1,10 @@
+// cl-algo-adjacent-diff-stage-2427: Test Suite
+import "../aad_2427.zk"
+
+fn test_run():
+    res := adj_diff_kernel_2427(100, 75)
+    if res != 25 + 2427: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-adjacent-diff-stage-2427!")
